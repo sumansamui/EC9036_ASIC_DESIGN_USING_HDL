@@ -32,14 +32,14 @@ USE ieee.std_logic_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY arbitary_seq_counter_tb IS
-END arbitary_seq_counter_tb;
+ENTITY logic_ckt_arbitary_seq_counter_tb IS
+END logic_ckt_arbitary_seq_counter_tb;
  
-ARCHITECTURE behavior OF arbitary_seq_counter_tb IS 
+ARCHITECTURE behavior OF logic_ckt_arbitary_seq_counter_tb IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT arbitary_seq_counter
+    COMPONENT logic_ckt_arbitary_seq_counter
     PORT(
          clk : IN  std_logic;
          rst : IN  std_logic;

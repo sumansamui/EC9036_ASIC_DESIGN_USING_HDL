@@ -39,7 +39,7 @@ begin
 		temp_count <= temp_count+1;	
 	end if;
 end process;
-count<=temp;
+count<=temp_count;
 end Behavioral;
 -----------------------------------------------------------------------------------
 

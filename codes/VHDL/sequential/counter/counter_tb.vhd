@@ -4,11 +4,11 @@ USE ieee.std_logic_1164.ALL;
 ENTITY counter2_tb IS
 END counter2_tb;
  
-ARCHITECTURE behavior OF counter2_tb IS 
+ARCHITECTURE behavior OF counter_tb IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT counter2
+    COMPONENT counter
     PORT(
          clk : IN  std_logic;
          reset : IN  std_logic;
