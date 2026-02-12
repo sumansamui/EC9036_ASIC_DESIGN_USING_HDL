@@ -44,39 +44,7 @@ This repo contains:
 - C. H. Roth Jr. and L. K. John, Digital Systems Design Using VHDL, Cengage Learning
 ---
 
-## Repository structure
 
-```text
-EC9036_ASIC_DESIGN_USING_HDL/
-├── Syllabus.pdf
-├── Verilog-HDL/
-│   ├── Intro.pdf
-│   ├── 01_verilog_fundamental.pdf
-│   ├── 02_System_design.pdf
-│   ├── blockin_non_blocking.pdf
-│   ├── verification/
-│   │   ├── verilog_tb.pdf
-│   │   ├── sv_oop.pdf
-│   │   └── *.v (TB + SV/OOP practice)
-│   └── System_design_projects/
-│       ├── FIFO/ (fifo.v, rw_mem.v, tb_fifo.v, FIFO.pdf)
-│       ├── GCD/  (v1/*, tb_gcd.v, GCD.pdf)
-│       ├── MAC/  (v1/*, v2/*, top_mac_tb.v, MAC.pdf)
-│       ├── Digital_filter/ (moving_avg_4_filter.v, etc.)
-│       ├── gate_level_modelling/ (primitive_gates.pdf)
-│       └── pipelined_architecture/ (pipelined_vs_non-pipelined.v, pdf)
-├── VHDL/ (supporting slides)
-├── basic_codes/
-│   └── codes/
-│       ├── Verilog/ (GCD, FSM/counter, seq detectors, shift regs, etc.)
-│       └── VHDL/    (clock divider, shift registers, ring counter, etc.)
-└── problem_set_Lab/
-    ├── Assignment submission guideline.pdf
-    ├── 1_Sequential_Summation_System.pdf
-    ├── 2_FSM_Sequential_Logic_Operator_Selector.pdf
-    ├── 3_4_point_moving_average_filter_problem.pdf
-    └── basic_practice_set/ (Problem sets + lab exam tasks)
-```
 
 
 ## License
